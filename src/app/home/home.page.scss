@@ -1,0 +1,23 @@
+ion-card-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  ion-label{
+      text-align: justify;
+      padding: 20px;
+  }
+}
+
+.custom-button {
+  display: inline-block;
+  margin-right: 10px; 
+  padding: 10px;
+  text-align: center;
+  background-color: #3880ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px; 
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
